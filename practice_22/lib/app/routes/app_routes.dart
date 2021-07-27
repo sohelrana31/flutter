@@ -5,8 +5,10 @@ abstract class Routes {
   Routes._();
 
   static const HOME = _Paths.HOME;
+  static const PDF_TASK = _Paths.PDF_TASK;
 }
 
 abstract class _Paths {
   static const HOME = '/home';
+  static const PDF_TASK = '/pdf-task';
 }

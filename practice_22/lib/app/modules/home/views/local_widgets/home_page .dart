@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:practice_22/app/routes/app_pages.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -16,13 +17,39 @@ class HomePage extends StatelessWidget {
                 Container(
                   height: Get.height * 0.70,
                   width: Get.width * 0.30,
-                  color: Colors.brown,
-                  child: Text('data'),
+                  color: Colors.limeAccent,
+                  child:Column (
+                  
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                // Respond to button press
+              },
+              child: Text("CONTAINED BUTTON"),
+            ),
+            SizedBox(height: 8.0),
+            ElevatedButton(
+              onPressed: () {
+                Get.toNamed(Routes.PDF_TASK);
+              },
+              child: Text("CONTAINED BUTTON"),
+            ),
+            SizedBox(height: 8.0),
+            ElevatedButton(
+              onPressed: () {
+                // Respond to button press
+              },
+              child: Text("CONTAINED BUTTON"),
+            ),
+          ],
+        ),
                 ),
                 Container(
                   height: Get.height * 0.70,
                   width: Get.width * 0.70,
-                  color: Colors.blue,
+                  color: Colors.lightBlue,
                   child: Text('data'),
                 ),
               ],

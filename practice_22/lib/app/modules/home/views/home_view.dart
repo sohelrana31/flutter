@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:practice_22/app/global_widget/bottomnavbar_widget.dart';
 import 'package:practice_22/app/modules/home/views/local_widgets/about_page.dart';
 import 'package:practice_22/app/modules/home/views/local_widgets/home_page%20.dart';
 import 'package:practice_22/app/modules/home/views/local_widgets/notice_page.dart';
@@ -12,6 +13,7 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       body: Column(
         children: [
           Container(
@@ -62,9 +64,10 @@ class HomeView extends GetView<HomeController> {
         ],
       ),
       floatingActionButton: Container(
-        height: 30,
+        height: 88,
         width: Get.width,
         color: Colors.black26,
+        child: BottomnavbarWidget(),
       ),
     );
   }
