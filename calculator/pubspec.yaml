@@ -1,0 +1,30 @@
+name: calculator
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+#  smooth_star_rating: ^1.1.1
+  flutter_form_builder: ^6.0.1
+  cupertino_icons: ^1.0.3
+  get: 4.1.4
+  native_pdf_view: ^4.1.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+#    - assets/images/welcome.png
+#    - assets/images/waiter_img.png
+    - assets/images/sohel.jpg
+    - assets/images/sohel.pdf
+    - assets/images/sohel1.pdf
+    - assets/images/sohel2.pdf
