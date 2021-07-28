@@ -18,33 +18,32 @@ class HomePage extends StatelessWidget {
                   height: Get.height * 0.70,
                   width: Get.width * 0.30,
                   color: Colors.limeAccent,
-                  child:Column (
-                  
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ElevatedButton(
-              onPressed: () {
-                // Respond to button press
-              },
-              child: Text("CONTAINED BUTTON"),
-            ),
-            SizedBox(height: 8.0),
-            ElevatedButton(
-              onPressed: () {
-                Get.toNamed(Routes.PDF_TASK);
-              },
-              child: Text("CONTAINED BUTTON"),
-            ),
-            SizedBox(height: 8.0),
-            ElevatedButton(
-              onPressed: () {
-                // Respond to button press
-              },
-              child: Text("CONTAINED BUTTON"),
-            ),
-          ],
-        ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          Get.toNamed(Routes.ANIMATION_DEMO);
+                        },
+                        child: Text("CONTAINED BUTTON"),
+                      ),
+                      SizedBox(height: 8.0),
+                      ElevatedButton(
+                        onPressed: () {
+                          Get.toNamed(Routes.PDF_TASK);
+                        },
+                        child: Text("CONTAINED BUTTON"),
+                      ),
+                      SizedBox(height: 8.0),
+                      ElevatedButton(
+                        onPressed: () {
+                          Get.toNamed(Routes.DEPARTMENT_SYLLABUS);
+                        },
+                        child: Text("Syllabus All Honour's Subject"),
+                      ),
+                    ],
+                  ),
                 ),
                 Container(
                   height: Get.height * 0.70,
@@ -58,7 +57,6 @@ class HomePage extends StatelessWidget {
           SizedBox(
             height: 40,
           ),
-         
         ],
       ),
     );

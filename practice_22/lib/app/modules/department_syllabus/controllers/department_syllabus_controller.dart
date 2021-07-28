@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class PdfTaskController extends GetxController {
-  
+class DepartmentSyllabusController extends GetxController {
+ 
 
   final count = 0.obs;
   @override

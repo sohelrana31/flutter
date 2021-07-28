@@ -8,6 +8,10 @@ environment:
 dependencies: 
   cupertino_icons: ^1.0.2
   get: 4.3.0
+  url_launcher: ^6.0.9
+  native_pdf_view: ^4.1.0
+  dio: ^4.0.0
+  path_provider: ^2.0.2
   flutter: 
     sdk: flutter
 
@@ -21,3 +25,5 @@ flutter:
 
   assets:
     - assets/images/sohel.jpg
+    - assets/images/sohel.pdf
+    

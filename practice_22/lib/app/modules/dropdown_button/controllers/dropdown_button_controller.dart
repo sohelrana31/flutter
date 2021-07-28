@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class PdfTaskController extends GetxController {
-  
+class DropdownButtonController extends GetxController {
+  var dropdowndata = 'please select option'.obs;
 
   final count = 0.obs;
   @override
@@ -17,4 +17,7 @@ class PdfTaskController extends GetxController {
   @override
   void onClose() {}
   void increment() => count.value++;
+  void dropdownValueChange(String selectedValue) {
+    dropdowndata.value = selectedValue;
+  }
 }

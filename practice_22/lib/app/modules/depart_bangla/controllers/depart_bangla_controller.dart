@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class PdfTaskController extends GetxController {
+class DepartBanglaController extends GetxController {
   
 
   final count = 0.obs;
