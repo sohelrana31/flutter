@@ -12,6 +12,9 @@ abstract class Routes {
   static const H_1I = _Paths.H_1I;
   static const DOWNLOAD_PDF = _Paths.DOWNLOAD_PDF;
   static const DROPDOWN_BUTTON = _Paths.DROPDOWN_BUTTON;
+  static const SETTING = _Paths.SETTING;
+  static const WORD = _Paths.WORD;
+  static const WEBSITE = _Paths.WEBSITE;
 }
 
 abstract class _Paths {
@@ -23,4 +26,7 @@ abstract class _Paths {
   static const H_1I = '/h-1i';
   static const DOWNLOAD_PDF = '/download-pdf';
   static const DROPDOWN_BUTTON = '/dropdown-button';
+  static const SETTING = '/setting';
+  static const WORD = '/word';
+  static const WEBSITE = '/website';
 }

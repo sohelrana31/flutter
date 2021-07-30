@@ -1,0 +1,21 @@
+import 'package:get/get.dart';
+
+import 'dart:async';
+import 'package:webview_flutter/webview_flutter.dart';
+class WebsiteController extends GetxController {
+  final Completer<WebViewController> completeController = Completer<WebViewController>();
+  final count = 0.obs;
+  @override
+  void onInit() {
+    super.onInit();
+  }
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {}
+  void increment() => count.value++;
+}

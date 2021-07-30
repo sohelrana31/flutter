@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import 'package:practice_22/app/modules/Word/bindings/word_binding.dart';
+import 'package:practice_22/app/modules/Word/views/word_view.dart';
 import 'package:practice_22/app/modules/animation_demo/bindings/animation_demo_binding.dart';
 import 'package:practice_22/app/modules/animation_demo/views/animation_demo_view.dart';
 import 'package:practice_22/app/modules/depart_bangla/bindings/depart_bangla_binding.dart';
@@ -16,6 +18,10 @@ import 'package:practice_22/app/modules/home/bindings/home_binding.dart';
 import 'package:practice_22/app/modules/home/views/home_view.dart';
 import 'package:practice_22/app/modules/pdf_task/bindings/pdf_task_binding.dart';
 import 'package:practice_22/app/modules/pdf_task/views/pdf_task_view.dart';
+import 'package:practice_22/app/modules/setting/bindings/setting_binding.dart';
+import 'package:practice_22/app/modules/setting/views/setting_view.dart';
+import 'package:practice_22/app/modules/website/bindings/website_binding.dart';
+import 'package:practice_22/app/modules/website/views/website_view.dart';
 
 part 'app_routes.dart';
 
@@ -64,6 +70,21 @@ class AppPages {
       name: _Paths.DROPDOWN_BUTTON,
       page: () => DropdownButtonView(),
       binding: DropdownButtonBinding(),
+    ),
+    GetPage(
+      name: _Paths.SETTING,
+      page: () => SettingView(),
+      binding: SettingBinding(),
+    ),
+    GetPage(
+      name: _Paths.WORD,
+      page: () => WordView(),
+      binding: WordBinding(),
+    ),
+    GetPage(
+      name: _Paths.WEBSITE,
+      page: () => WebsiteView(),
+      binding: WebsiteBinding(),
     ),
   ];
 }

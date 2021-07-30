@@ -15,7 +15,19 @@ class AnimationDemoView extends GetView<AnimationDemoController> {
       body: Column(
         children: [
           ElevatedButton(
-              onPressed: controller.launchURL,
+              onPressed: () {
+                controller.launchMapsUrl('https://www.moedu.gov.bd');
+              },
+              child: Text('Goto facebook')),
+               ElevatedButton(
+              onPressed: () {
+                controller.launchMapsUrl('https://www.kgc.ac.bd');
+              },
+              child: Text('Goto facebook')),
+               ElevatedButton(
+              onPressed: () {
+                controller.launchMapsUrl('https://www.facebook.com/sohelrana31b');
+              },
               child: Text('Goto facebook')),
           Center(
             child: Text(

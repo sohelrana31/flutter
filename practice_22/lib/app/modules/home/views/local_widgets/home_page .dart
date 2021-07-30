@@ -42,6 +42,18 @@ class HomePage extends StatelessWidget {
                         },
                         child: Text("Syllabus All Honour's Subject"),
                       ),
+                      ElevatedButton(
+                        onPressed: () {
+                          Get.toNamed(Routes.WORD);
+                        },
+                        child: Text("JosnView"),
+                      ),
+                       ElevatedButton(
+                        onPressed: () {
+                          Get.toNamed(Routes.WEBSITE);
+                        },
+                        child: Text("WebView"),
+                      ),
                     ],
                   ),
                 ),

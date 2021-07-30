@@ -13,8 +13,7 @@ class PdfTaskView extends GetView<PdfTaskController> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'PdfTaskView is working',
+        child: Text('my name  is sohel',
           style: TextStyle(fontSize: 20),
         ),
       ),

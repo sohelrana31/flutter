@@ -37,8 +37,10 @@ class DepartmentSyllabusView extends GetView<DepartmentSyllabusController> {
               ),
               SizedBox(height: 8.0),
               ElevatedButton(
-                onPressed: () {},
-                child: Text("CONTAINED BUTTON"),
+                onPressed: () {
+                  Get.toNamed(Routes.SETTING);
+                },
+                child: Text("SETTING BUTTON"),
               ),
               SizedBox(height: 8.0),
               ElevatedButton(

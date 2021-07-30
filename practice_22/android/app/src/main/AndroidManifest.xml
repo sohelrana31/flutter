@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sohel.practice_22">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="practice_22"
         android:icon="@mipmap/ic_launcher">
