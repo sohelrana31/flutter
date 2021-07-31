@@ -15,6 +15,7 @@ abstract class Routes {
   static const SETTING = _Paths.SETTING;
   static const WORD = _Paths.WORD;
   static const WEBSITE = _Paths.WEBSITE;
+  static const LOCAL_DATA = _Paths.LOCAL_DATA;
 }
 
 abstract class _Paths {
@@ -29,4 +30,5 @@ abstract class _Paths {
   static const SETTING = '/setting';
   static const WORD = '/word';
   static const WEBSITE = '/website';
+  static const LOCAL_DATA = '/local-data';
 }

@@ -16,6 +16,8 @@ import 'package:practice_22/app/modules/h_1i/bindings/h_1i_binding.dart';
 import 'package:practice_22/app/modules/h_1i/views/h_1i_view.dart';
 import 'package:practice_22/app/modules/home/bindings/home_binding.dart';
 import 'package:practice_22/app/modules/home/views/home_view.dart';
+import 'package:practice_22/app/modules/local_data/bindings/local_data_binding.dart';
+import 'package:practice_22/app/modules/local_data/views/local_data_view.dart';
 import 'package:practice_22/app/modules/pdf_task/bindings/pdf_task_binding.dart';
 import 'package:practice_22/app/modules/pdf_task/views/pdf_task_view.dart';
 import 'package:practice_22/app/modules/setting/bindings/setting_binding.dart';
@@ -85,6 +87,11 @@ class AppPages {
       name: _Paths.WEBSITE,
       page: () => WebsiteView(),
       binding: WebsiteBinding(),
+    ),
+    GetPage(
+      name: _Paths.LOCAL_DATA,
+      page: () => LocalDataView(),
+      binding: LocalDataBinding(),
     ),
   ];
 }
