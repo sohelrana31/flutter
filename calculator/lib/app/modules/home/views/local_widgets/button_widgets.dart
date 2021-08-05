@@ -21,7 +21,7 @@ class ButtonWidgets extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: GestureDetector(
                       onTap: () {
-                        Get.toNamed(Routes.CHAPTER_ONE);
+                        Get.toNamed(Routes.WEBSITE);
 
                       },
                       child: Container(
@@ -37,7 +37,7 @@ class ButtonWidgets extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children:<Widget> [
 
-                            Text('Chapter One',style: TextStyle(fontSize: 16),)
+                            Text('কুমুদিনী সরকারি কলেজ, ওয়েবসাইট',style: TextStyle(fontSize: 16),)
                           ],
                         ),
                       ),

@@ -14,6 +14,7 @@ abstract class Routes {
   static const CHAPTER_SEVEN = _Paths.CHAPTER_SEVEN;
   static const RATE_US = _Paths.RATE_US;
   static const SNACK_BAR = _Paths.SNACK_BAR;
+  static const WEBSITE = _Paths.WEBSITE;
 }
 
 abstract class _Paths {
@@ -28,4 +29,5 @@ abstract class _Paths {
 
   static const RATE_US = '/rate-us';
   static const SNACK_BAR = '/snack-bar';
+  static const WEBSITE = '/website';
 }

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a13619d-39b7-4de8-ace5-fa12be907c29" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\USER\.android\avd\Pixel_3a_API_30_x86.avd]" />
+  <component name="ProjectId" id="1v5Dzu04uvxQCklNJaFKmKIuKSG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library_management_system-master" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a13619d-39b7-4de8-ace5-fa12be907c29" name="Default Changelist" comment="" />
+      <created>1625843322100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625843322100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="0" width="1089" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625850903566">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="0" width="1089" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1625850903566" />
+    <state x="498" y="198" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1625850886677">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="498" y="198" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1625850886677" />
+    <state x="93" y="93" width="1350" height="630" key="AVDManager" timestamp="1625843924940">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="AVDManager/0.0.1536.816@0.0.1536.816" timestamp="1625843924940" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1625846420045">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1625846420045" />
+    <state x="277" y="53" key="SettingsEditor" timestamp="1625846429543">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1625846429543" />
+  </component>
+</project>

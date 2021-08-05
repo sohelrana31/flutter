@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
                         onPressed: () {
                           Get.toNamed(Routes.WEBSITE);
                         },
-                        child: Text("WebView"),
+                        child: Text("কুমুদিনী সরকারি কলেজ, ওয়েবসাইট"),
                       ),
                     ],
                   ),

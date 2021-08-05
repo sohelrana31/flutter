@@ -20,6 +20,8 @@ import 'package:calculator/app/modules/rating_star/bindings/rating_star_binding.
 import 'package:calculator/app/modules/rating_star/views/rating_star_view.dart';
 import 'package:calculator/app/modules/snack_bar/bindings/snack_bar_binding.dart';
 import 'package:calculator/app/modules/snack_bar/views/snack_bar_view.dart';
+import 'package:calculator/app/modules/website/bindings/website_binding.dart';
+import 'package:calculator/app/modules/website/views/website_view.dart';
 
 part 'app_routes.dart';
 
@@ -78,6 +80,11 @@ class AppPages {
       name: _Paths.SNACK_BAR,
       page: () => SnackBarView(),
       binding: SnackBarBinding(),
+    ),
+    GetPage(
+      name: _Paths.WEBSITE,
+      page: () => WebsiteView(),
+      binding: WebsiteBinding(),
     ),
   ];
 }

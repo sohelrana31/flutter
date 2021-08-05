@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="419dc7a6-0d2d-45ec-a1a1-d2859fefaa8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\USER\.android\avd\Pixel_3a_API_30_x86.avd]" />
+  <component name="ProjectId" id="1v5FI7Lu1UUJ7E29JJHyYA3cNRj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="Pixel_3a_API_30_x86 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="android.process.acore" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="419dc7a6-0d2d-45ec-a1a1-d2859fefaa8a" name="Default Changelist" comment="" />
+      <created>1625843960152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625843960152</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="0" width="1089" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625844735295">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="0" width="1089" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1625844735295" />
+    <state x="93" y="93" width="1350" height="630" key="AVDManager" timestamp="1625845188350">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="AVDManager/0.0.1536.816@0.0.1536.816" timestamp="1625845188350" />
+    <state x="580" y="154" key="AndroidProcessChooserDialog" timestamp="1625844025347">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="580" y="154" key="AndroidProcessChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1625844025347" />
+    <state x="548" y="163" key="FileChooserDialogImpl" timestamp="1625844680518">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1625844680518" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1625913290652">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1625913290652" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1625913290652">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1625913290652" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1625913290648">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1625913290648" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1625913290652">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1625913290652" />
+    <state x="277" y="53" key="SettingsEditor" timestamp="1625844682876">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1625844682876" />
+  </component>
+</project>
