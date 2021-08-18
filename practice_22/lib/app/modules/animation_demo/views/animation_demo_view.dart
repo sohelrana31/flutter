@@ -18,7 +18,7 @@ class AnimationDemoView extends GetView<AnimationDemoController> {
               onPressed: () {
                 controller.launchMapsUrl('https://www.moedu.gov.bd');
               },
-              child: Text('Goto facebook')),
+              child: Text('Ministry of Education')),
                ElevatedButton(
               onPressed: () {
                 controller.launchMapsUrl('https://www.kgc.ac.bd');
