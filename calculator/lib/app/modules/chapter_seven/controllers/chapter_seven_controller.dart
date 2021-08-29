@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class ChapterSevenController extends GetxController {
-  //TODO: Implement ChapterSevenController
+  
 
   final count = 0.obs;
   @override

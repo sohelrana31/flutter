@@ -1,0 +1,53 @@
+name: ict_guide
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.3.8
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  native_pdf_view: ^4.1.0
+  lints: 1.0.1
+  url_launcher: ^6.0.9 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+
+  assets:
+    
+    - assets/images/sohel.jpg
+    - assets/images/1stchapter2019.pdf
+    - assets/images/2chapter2019.pdf
+    - assets/images/3chapter2019.pdf
+    - assets/images/4thchapter2019.pdf
+    - assets/images/5thchapter2019.pdf
+    - assets/images/6thchapter2019.pdf
+    - assets/images/2016chapter_1.pdf
+    - assets/images/2016chapter_2.pdf
+    - assets/images/2016chapter_3.pdf
+    - assets/images/2016chapter_4.pdf
+    - assets/images/2016chapter_5.pdf
+    - assets/images/2016chapter_6.pdf
+    - assets/images/chapter1_extra.pdf
+    - assets/images/chapter2_extra.pdf
+    - assets/images/chapter3_extra.pdf
+    - assets/images/chapter4_extra.pdf
+    - assets/images/chapter5_extra.pdf
+    - assets/images/chapter6_extra.pdf
+    - assets/images/mcq1.pdf
+    - assets/images/mcq2.pdf
+    - assets/images/mcq3.pdf
+    - assets/images/mcq4.pdf
+    - assets/images/mcq5.pdf
+    - assets/images/mcq6.pdf
+
+

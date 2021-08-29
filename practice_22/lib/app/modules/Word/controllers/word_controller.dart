@@ -13,6 +13,7 @@ class WordController extends GetxController {
   @override
   void onInit() async {
     super.onInit();
+    
     bookList.addAll(PdfProvider().books);
 
     readJson();
