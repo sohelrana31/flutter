@@ -43,7 +43,27 @@ class ChapterController extends GetxController {
     else if (chapterId == '4') {
       _titleText.value = 'Chapter Four';
       hadisList.addAll(hadisProvider().chapterFour);
-    } else {
+    } 
+    else if (chapterId == '5') {
+      _titleText.value = 'Chapter Five';
+      hadisList.addAll(hadisProvider().chapterFive);
+    }
+    else if (chapterId == '6') {
+      _titleText.value = 'Chapter Six';
+      hadisList.addAll(hadisProvider().chapterSix);
+    }
+    else if (chapterId == '7') {
+      _titleText.value = 'Chapter Seven';
+      hadisList.addAll(hadisProvider().chapterSeven);
+    }
+    else if (chapterId == '8') {
+      _titleText.value = 'Chapter Eight';
+      hadisList.addAll(hadisProvider().chapterEight);
+    }
+    else if (chapterId == '9') {
+      _titleText.value = 'Chapter Nine';
+      hadisList.addAll(hadisProvider().chapterNine);
+    }else {
       hadisList.addAll([]);
     }
   }
